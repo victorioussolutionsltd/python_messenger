@@ -10,9 +10,6 @@ class MyWidget(QWidget):
     def __init__(self):
         QWidget.__init__(self)
 
-        self.hello = ["Hallo Welt", "你好，世界", "Hei maailma",
-            "Hola Mundo", "Привет мир"]
-
         self.webView = QWebEngineView()
         self.webView.load("https://www.messenger.com/login")
 
